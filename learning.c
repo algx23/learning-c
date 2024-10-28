@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <malloc.h>
 
 int main()
 {
@@ -13,4 +14,9 @@ float addNumbers()
 
   float answer = number + numberTwo;
   return answer;
+}
+
+void printCoolTriangle(int i)
+{
+  printf(i);
 }
